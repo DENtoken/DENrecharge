@@ -1,0 +1,434 @@
+Date: Sun, 14 Jul 2019 10:17:48 +0000 (UTC)
+Message-ID: <17290528.133.1563099468757@eff86383eefd>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_132_1106381526.1563099468756"
+
+------=_Part_132_1106381526.1563099468756
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Paga for Business REST API</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Paga for Business REST API</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<p class=3D"title">Welcome to the Business REST API documentation space</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>This is the home page for all Paga for Business REST API documentation. =
+This is where you can get all the latest up to date documentation on Paga C=
+onnect.</p>
+</div>
+</div>
+<h2 id=3D"PagaforBusinessRESTAPI-NewtoPagaBusinessRESTspace?UseourGettingSt=
+artedguidetogetupandrunninginstantly.">New to Paga Business REST space? Use=
+ our <a href=3D"/wiki/spaces/PFBRA/pages/1573201/Getting+started" data-link=
+ed-resource-id=3D"1573201" data-linked-resource-version=3D"8" data-linked-r=
+esource-type=3D"page">Getting Started</a> guide to get up and running insta=
+ntly.</h2>
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout three-equal" data-layout=3D"three-equal">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h2 id=3D"PagaforBusinessRESTAPI-Searchthisdocumentation">Search this docum=
+entation</h2>
+<p> </p>
+<div class=3D"search-macro search-macro-medium">=20
+<div class=3D"aui-dd-parent"></div>=20
+<form class=3D"aui aui-dd-parent" name=3D"livesearchForm" method=3D"POST" a=
+ction=3D"/wiki/dosearchsite.action">=20
+<fieldset class=3D"search-macro-fields">=20
+<div class=3D"search-macro-query">=20
+<input class=3D"text" type=3D"text" name=3D"queryString" autocomplete=3D"of=
+f" placeholder=3D"">=20
+</div>=20
+<button type=3D"submit" class=3D"search-macro-button aui-button"> <span cla=
+ss=3D"aui-icon aui-icon-small aui-iconfont-search">Search</span> </button>=
+=20
+<input type=3D"hidden" name=3D"where" value=3D"PFBRA">=20
+<input type=3D"hidden" name=3D"additional" value=3D"space name">=20
+<input type=3D"hidden" name=3D"labels" value=3D"">=20
+<input type=3D"hidden" name=3D"contentType" value=3D"">=20
+</fieldset>=20
+</form>=20
+</div>=20
+<p></p>
+<h2 id=3D"PagaforBusinessRESTAPI-PopularTopics">Popular Topics</h2>
+<p> </p>
+<ul class=3D"popularlabels-list">=20
+<li class=3D"popularlabel"><a class=3D"label" rel=3D"nofollow" href=3D"/wik=
+i/label/PFBRA/featured">featured</a></li>=20
+<li class=3D"popularlabel"><a class=3D"label" rel=3D"nofollow" href=3D"/wik=
+i/label/PFBRA/documentation-space-sample">documentation-space-sample</a></l=
+i>=20
+<li class=3D"popularlabel"><a class=3D"label" rel=3D"nofollow" href=3D"/wik=
+i/label/PFBRA/kb-how-to-article">kb-how-to-article</a></li>=20
+<li class=3D"popularlabel"><a class=3D"label" rel=3D"nofollow" href=3D"/wik=
+i/label/PFBRA/paga-business-rest">paga-business-rest</a></li>=20
+</ul>=20
+<p></p>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h2 id=3D"PagaforBusinessRESTAPI-FeaturedPages">Featured Pages</h2>
+<p> </p>
+<ul class=3D"content-by-label">=20
+<li>=20
+<div>=20
+<span class=3D"icon aui-icon aui-icon-small aui-iconfont-page-default" titl=
+e=3D"Page">Page:</span>=20
+</div>=20
+<div class=3D"details">=20
+<a data-linked-resource-id=3D"1573201" data-linked-resource-type=3D"page" d=
+ata-linked-resource-version=3D"8" href=3D"/wiki/spaces/PFBRA/pages/1573201/=
+Getting+started">Getting started</a>=20
+</div> </li>=20
+<li>=20
+<div>=20
+<span class=3D"icon aui-icon aui-icon-small aui-iconfont-page-default" titl=
+e=3D"Page">Page:</span>=20
+</div>=20
+<div class=3D"details">=20
+<a data-linked-resource-id=3D"1573220" data-linked-resource-type=3D"page" d=
+ata-linked-resource-version=3D"21" href=3D"/wiki/spaces/PFBRA/pages/1573220=
+/Paga+Business+Services+API">Paga Business Services API</a>=20
+</div> </li>=20
+</ul>=20
+<p></p>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h2 id=3D"PagaforBusinessRESTAPI-RecentlyUpdatedPages">Recently Updated Pag=
+es</h2>
+<p> </p>
+<div class=3D"recently-updated recently-updated-concise">=20
+<div class=3D"hidden parameters">=20
+<input type=3D"hidden" id=3D"changesUrl" value=3D"/wiki/plugins/recently-up=
+dated/changes.action?theme=3Dconcise&amp;pageSize=3D5&amp;spaceKeys=3DPFBRA=
+&amp;contentType=3Dpage">=20
+</div>=20
+<div class=3D"results-container">=20
+<ul>=20
+<li class=3D"update-item">=20
+<div class=3D"update-item-icon">=20
+<span class=3D"icon content-type-page"></span>=20
+</div>=20
+<div class=3D"update-item-content">=20
+<a href=3D"/wiki/spaces/PFBRA/pages/1573220/Paga+Business+Services+API" tit=
+le=3D"Paga for Business REST API" data-linked-resource-id=3D"1573220" data-=
+linked-resource-version=3D"21" data-linked-resource-type=3D"page">Paga Busi=
+ness Services API</a>=20
+<div class=3D"update-item-meta">
+ Oct 04, 2018
+<span class=3D"separator"> =E2=80=A2 </span>updated by=20
+<a class=3D"url fn" data-account-id=3D"557058:6a79c549-ef0d-4563-bc34-27c5d=
+c212452" href=3D"/wiki/display/~uduke">Umoh Bassey-Duke</a>
+<span class=3D"separator"> =E2=80=A2 </span>
+<a class=3D"changes-link" href=3D"/wiki/pages/diffpagesbyversion.action?pag=
+eId=3D1573220&amp;selectedPageVersions=3D21&amp;selectedPageVersions=3D20">=
+view change</a>=20
+</div>=20
+</div> </li>=20
+<li class=3D"update-item">=20
+<div class=3D"update-item-icon">=20
+<span class=3D"icon content-type-page"></span>=20
+</div>=20
+<div class=3D"update-item-content">=20
+<a href=3D"/wiki/spaces/PFBRA/pages/1573201/Getting+started" title=3D"Paga =
+for Business REST API" data-linked-resource-id=3D"1573201" data-linked-reso=
+urce-version=3D"8" data-linked-resource-type=3D"page">Getting started</a>=
+=20
+<div class=3D"update-item-meta">
+ Jul 07, 2017
+<span class=3D"separator"> =E2=80=A2 </span>updated by=20
+<a class=3D"url fn" data-account-id=3D"557058:6a79c549-ef0d-4563-bc34-27c5d=
+c212452" href=3D"/wiki/display/~uduke">Umoh Bassey-Duke</a>
+<span class=3D"separator"> =E2=80=A2 </span>
+<a class=3D"changes-link" href=3D"/wiki/pages/diffpagesbyversion.action?pag=
+eId=3D1573201&amp;selectedPageVersions=3D8&amp;selectedPageVersions=3D7">vi=
+ew change</a>=20
+</div>=20
+</div> </li>=20
+<li class=3D"update-item">=20
+<div class=3D"update-item-icon">=20
+<span class=3D"icon content-type-page"></span>=20
+</div>=20
+<div class=3D"update-item-content">=20
+<a href=3D"/wiki/spaces/PFBRA/overview" title=3D"Paga for Business REST API=
+" data-linked-resource-id=3D"1573200" data-linked-resource-version=3D"4" da=
+ta-linked-resource-type=3D"page">Paga for Business REST API</a>=20
+<div class=3D"update-item-meta">
+ Feb 16, 2015
+<span class=3D"separator"> =E2=80=A2 </span>updated by=20
+<a class=3D"url fn" data-account-id=3D"557058:6a79c549-ef0d-4563-bc34-27c5d=
+c212452" href=3D"/wiki/display/~uduke">Umoh Bassey-Duke</a>
+<span class=3D"separator"> =E2=80=A2 </span>
+<a class=3D"changes-link" href=3D"/wiki/pages/diffpagesbyversion.action?pag=
+eId=3D1573200&amp;selectedPageVersions=3D4&amp;selectedPageVersions=3D3">vi=
+ew change</a>=20
+</div>=20
+</div> </li>=20
+<li class=3D"update-item">=20
+<div class=3D"update-item-icon">=20
+<span class=3D"icon content-type-page"></span>=20
+</div>=20
+<div class=3D"update-item-content">=20
+<a href=3D"/wiki/spaces/PFBRA/pages/1573219/How-to+articles" title=3D"Paga =
+for Business REST API" data-linked-resource-id=3D"1573219" data-linked-reso=
+urce-version=3D"2" data-linked-resource-type=3D"page">How-to articles</a>=
+=20
+<div class=3D"update-item-meta">
+ Feb 13, 2015
+<span class=3D"separator"> =E2=80=A2 </span>updated by=20
+<a class=3D"url fn" data-account-id=3D"557058:6a79c549-ef0d-4563-bc34-27c5d=
+c212452" href=3D"/wiki/display/~uduke">Umoh Bassey-Duke</a>
+<span class=3D"separator"> =E2=80=A2 </span>
+<a class=3D"changes-link" href=3D"/wiki/pages/diffpagesbyversion.action?pag=
+eId=3D1573219&amp;selectedPageVersions=3D2&amp;selectedPageVersions=3D1">vi=
+ew change</a>=20
+</div>=20
+</div> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<p></p>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_132_1106381526.1563099468756--
